@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- Loading Screen -->
+    <!-- ========================= -->
+
+    <div id="loader">
+        <h1>Loading Your Surprise ❤️</h1>
+
+        <div class="loader-bar">
+            <div class="loader-progress"></div>
+        </div>
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- Landing Screen -->
+    <!-- ========================= -->
+
+    <section id="landing">
+
+        <div id="stars"></div>
+
+        <div class="moon"></div>
+
+        <div class="overlay"></div>
+
+        <div class="content">
+
+            <h3>Hello Beautiful ✨</h3>
+
+            <h1>
+                Someone Has
+                <br>
+                A Surprise For You ❤️
+            </h1>
+
+            <p>
+                Today is not just another day...
+                <br><br>
+                Today is all about your smile.
+            </p>
+
+            <button id="startBtn">
+                Open My Surprise 🎁
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- Cake Section -->
+    <!-- ========================= -->
+
+    <section id="cakeSection" class="hidden">
+
+        <div class="cake-content">
+
+            <h1>🎂 Happy Birthday ❤️</h1>
+
+            <p>
+                Make a wish...
+                <br>
+                Then blow the candles. ✨
+            </p>
+
+            <div class="cake">
+
+                <div class="candles">
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+
+                </div>
+
+                <div class="cake-body"></div>
+
+            </div>
+
+            <button id="blowBtn">
+                Blow Candles 💨
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- Celebration Section -->
+    <!-- ========================= -->
+
+    <section id="celebration" class="hidden">
+
+        <div class="celebration-content">
+
+            <h1 id="birthdayTitle">
+                🎉 Happy Birthday ❤️
+            </h1>
+
+            <p id="wishText">
+                Did you make a wish? ✨
+            </p>
+
+            <button id="continueBtn">
+                Continue ❤️
+            </button>
+
+            <div id="loveReveal" class="hidden">
+
+                <h2>I already know my wish... ✨</h2>
+
+                <h1>It's You ❤️</h1>
+
+                <button id="letterBtn">
+                    Read My Letter 💌
+                </button>
+
+            </div>
+
+        </div>
+
+        <canvas id="confettiCanvas"></canvas>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- Letter Section -->
+    <!-- ========================= -->
+
+    <section id="letterSection" class="hidden">
+
+        <div class="letter-card">
+
+            <h1>💌 A Letter For You</h1>
+
+            <p id="letterText">
+
+                Happy Birthday, My Love ❤️
+
+                <br><br>
+
+                Maybe today I'm not standing beside you...
+
+                <br><br>
+
+                but every heartbeat of mine is celebrating you.
+
+                <br><br>
+
+                Thank you for making my life brighter.
+
+                <br>
+
+                Thank you for every smile,
+                every laugh,
+                every memory.
+
+                <br><br>
+
+                No matter how many miles separate us...
+
+                <br>
+
+                my heart will always choose you.
+
+                <br><br>
+
+                ❤️
+
+            </p>
+
+            <button id="giftBtn">
+                Open Your Gift 🎁
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- Gift Section -->
+    <!-- ========================= -->
+
+    <section id="giftSection" class="hidden">
+
+        <div class="gift-container">
+
+            <div id="giftBox">
+                🎁
+            </div>
+
+            <button id="openGiftBtn">
+                Open Gift ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- Gallery Section -->
+    <!-- ========================= -->
+
+    <section id="gallerySection" class="hidden">
+
+        <h1>
+            Our Beautiful Memories ❤️
+        </h1>
+
+        <div class="gallery">
+
+            <img
+                src="assets/photos/photo1.jpg"
+                alt="Memory 1"
+            >
+
+            <img
+                src="assets/photos/photo2.jpg"
+                alt="Memory 2"
+            >
+
+            <img
+                src="assets/photos/photo3.jpg"
+                alt="Memory 3"
+            >
+
+            <img
+                src="assets/photos/photo4.jpg"
+                alt="Memory 4"
+            >
+
+        </div>
+
+        <button id="finalBtn">
+            One Last Message ❤️
+        </button>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- Final Section -->
+    <!-- ========================= -->
+
+    <section id="finalSection" class="hidden">
+
+        <div class="final-content">
+
+            <h1>
+                ❤️ Happy Birthday ❤️
+            </h1>
+
+            <p>
+
+                Thank You For Watching.
+
+                <br><br>
+
+                I hope this little surprise made you smile.
+
+                <br><br>
+
+                Distance may keep us apart,
+
+                <br>
+
+                but nothing can change what I feel for you.
+
+                <br><br>
+
+                I'll always be there for you,
+
+                <br>
+
+                cheering for you,
+
+                <br>
+
+                caring for you,
+
+                <br>
+
+                and loving you.
+
+                <br><br>
+
+                Happy Birthday once again.
+
+                ❤️
+
+            </p>
+
+            <h2>
+                Forever Yours,
+                <br>
+                Bhavishya ❤️
+            </h2>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- JavaScript -->
+    <!-- ========================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
